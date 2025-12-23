@@ -1,0 +1,87 @@
+/* assets/style.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%); /* Soft gray gradient */
+    margin: 0;
+    padding: 0;
+    color: #2c3e50;
+    height: 100vh;
+}
+
+/* The Main Wrapper - Acts like a central card */
+.wrapper {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* Header Styling */
+.header_card {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    margin-bottom: 25px;
+    text-align: center;
+    border-left: 5px solid #e91e63; /* Pink Morsel Accent Color */
+}
+
+.header_card h1 {
+    margin: 0;
+    font-weight: 600;
+    color: #333;
+    font-size: 2.2rem;
+}
+
+.header_card p {
+    color: #777;
+    margin-top: 5px;
+}
+
+/* Control Panel (Radio Buttons) */
+.control_card {
+    background: #ffffff;
+    padding: 15px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between; /* Spreads title and buttons apart */
+    align-items: center;
+}
+
+.control_card h3 {
+    margin: 0;
+    font-size: 1.1rem;
+    color: #e91e63; /* Accent color */
+}
+
+/* Styling the Radio Items */
+#region_selector {
+    font-weight: 500;
+}
+
+/* Add spacing between radio options */
+#region_selector input {
+    margin-right: 5px;
+}
+
+#region_selector label {
+    margin-right: 20px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+#region_selector label:hover {
+    color: #e91e63;
+}
+
+/* Graph Container */
+.graph_card {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08); /* Slightly deeper shadow */
+}
